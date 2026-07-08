@@ -274,28 +274,33 @@
     bottom: 20px;
     width: 58px;
     height: 58px;
-    background: #25d366;
+    background: var(--purple);
+    border: 2px solid var(--purple-light);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
     text-decoration: none;
     box-shadow: 0 8px 24px rgba(0,0,0,0.4);
     z-index: 100;
     animation: pulse-whatsapp 2.4s infinite;
   }
 
+  .whatsapp-float svg { width: 28px; height: 28px; fill: #ffffff; }
+  .btn-whatsapp svg { width: 20px; height: 20px; fill: #1a1206; }
+
   @keyframes pulse-whatsapp {
-    0% { box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 0 rgba(37, 211, 102, 0.55); }
-    70% { box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 14px rgba(37, 211, 102, 0); }
-    100% { box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 0 rgba(37, 211, 102, 0); }
+    0% { box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 0 rgba(139, 47, 201, 0.6); }
+    70% { box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 14px rgba(139, 47, 201, 0); }
+    100% { box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 0 rgba(139, 47, 201, 0); }
   }
 </style>
 </head>
 <body>
 
-  <a class="whatsapp-float" href="https://wa.me/5547997609697?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Lima%20Cell%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">💬</a>
+  <a class="whatsapp-float" href="https://wa.me/5547997609697?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Lima%20Cell%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+  </a>
 
   <div class="hero">
     <img class="logo" src="../../identidade/logo.png" alt="Lima Cell">
@@ -307,7 +312,10 @@
     </div>
 
     <div>
-      <a class="btn-whatsapp" href="https://wa.me/5547997609697?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Lima%20Cell%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">💬 Fale no WhatsApp</a>
+      <a class="btn-whatsapp" href="https://wa.me/5547997609697?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Lima%20Cell%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+        Fale no WhatsApp
+      </a>
     </div>
 
     <div class="carrossel" id="carrossel">

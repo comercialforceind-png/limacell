@@ -113,3 +113,43 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+# Lima Cell
+
+Venda de celulares novos e assistência técnica (troca de tela, bateria,
+conector/microfone) e acessórios (capinhas, carregadores, fones). Duas
+lojas físicas em Araquari/SC:
+
+- **Loja Centro de Araquari** — 1 funcionário
+- **Loja Porto Grande** — 1 funcionário
+
+Josué é o dono e acompanha as duas lojas.
+
+## Estrutura de pastas
+
+- `_memoria/` — quem é a Lima Cell, tom de voz, foco atual
+- `identidade/` — marca aplicada em tudo que o sistema gera (ver logo e cores em `identidade/design-guide.md`)
+- `marketing/` — campanhas, conteúdo, mídia paga (Facebook/Instagram)
+- `saidas/` — documentos pontuais
+- `dados/` — arquivos a analisar
+- `scripts/` — automações
+- Não há departamentos formais (RH, financeiro, comercial) — é operação enxuta, dono + 2 lojas. Criar pastas novas só se surgir necessidade real.
+
+## O que mais fazemos aqui
+
+- Peças de divulgação no estilo bio/legenda de Insta (ver `_memoria/preferencias.md`)
+- Materiais com foco em preço acessível, garantia e localização (Araquari / Porto Grande)
+- Futuramente: site de campanha com Ads, WhatsApp e pixel do Facebook (ver `_memoria/estrategia.md`)
+- Futuramente: calculadora automática de orçamento de tela com resposta via WhatsApp
+
+## Tom de voz
+
+Informal, direto, estilo bio de Instagram com emoji marcando tópico.
+Sem restrição de formalidade — público é geral/bairro.
+
+## Regras específicas
+
+- Toda peça visual (carrossel, post, proposta) segue `identidade/design-guide.md`
+- Slogan de referência: "Celular com problema? Lima Cell resolve!"
